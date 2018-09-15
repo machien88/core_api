@@ -1,0 +1,28 @@
+{
+    "app": "HunTer-API",
+    "apiKey": "MWVlOWE3OTgtMzcwZi00ZGJkLTk5NjktYzA5Nzk1MDk5NGQ0",
+    "recreateDB": false,
+    "db": {
+        "dbname": "hunter",
+        "username": "root",
+        "password": "machien88",
+        "options": {
+            "host": "127.0.0.1",
+            "port": 3306,
+            "dialect": "mysql",
+            "useUTC": true,
+            "dateStrings": true,
+            "timezone": "+00:00"
+        }
+    },
+    "jwt": {
+        "key": "gocarApp"
+    },
+    "email": {
+        "port": 465,
+        "host": "smtp.gmail.com",
+        "emailName": "",
+        "emailAddress": "",
+        "password": ""
+    }
+}
